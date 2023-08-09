@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class Demo2Application {
 	
 	@GetMapping("/check")
-	public int check() {
-		return 1;
+	public String check() {
+		return "Main";
 	}
 	
 	public static void main(String[] args) {
